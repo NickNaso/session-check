@@ -1,0 +1,40 @@
+{
+  "name": "session-check",
+  "description": "Middleware to set the X-Powered-By header returned by Express",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nicola Del Gobbo",
+    "email": "nicoladelgobbo@gmail.com",
+    "url": "http://www.nacios.it"
+  },
+  "licenses": [
+    {
+      "type": "Apache License Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickNaso/session-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickNaso/session-check/issues"
+  },
+  "homepage": "http://www.nacios.it/",
+  "keywords": [
+    "express",
+    "session",
+    "connect",
+    "check",
+    "middleware"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ]
+}
