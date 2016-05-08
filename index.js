@@ -15,6 +15,7 @@
  * Contributors - initial API implementation:
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  *****************************************************************************/
+ 
 'use strict';
 
-module.exports = require('.lib/session-check');
+module.exports = require('./lib/session-check');

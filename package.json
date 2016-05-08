@@ -2,17 +2,21 @@
   "name": "session-check",
   "description": "Middleware to set the X-Powered-By header returned by Express",
   "version": "1.0.0",
-  "author": {
-    "name": "Nicola Del Gobbo",
-    "email": "nicoladelgobbo@gmail.com",
-    "url": "http://www.nacios.it"
-  },
-  "licenses": [
-    {
-      "type": "Apache License Version 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
+  "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
+  "keywords": [
+    "express",
+    "session",
+    "connect",
+    "check",
+    "middleware"
   ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/NickNaso/session-check.git"
@@ -21,19 +25,17 @@
     "url": "https://github.com/NickNaso/session-check/issues"
   },
   "homepage": "http://www.nacios.it/",
-  "keywords": [
-    "express",
-    "session",
-    "connect",
-    "check",
-    "middleware"
-  ],
-  "engines": {
-    "node": ">= 0.10.0"
+  "devDependencies": {
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jasmine": "^2.4.1",
+    "supertest": "^1.2.0"
   },
   "files": [
     "LICENSE",
     "README.md",
+    "CHANGELOG.md",
     "index.js",
     "lib/"
   ]
