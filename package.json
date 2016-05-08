@@ -1,7 +1,7 @@
 {
   "name": "session-check",
-  "description": "Middleware to set the X-Powered-By header returned by Express",
-  "version": "1.0.0",
+  "description": "Express middleware to check if session is available",
+  "version": "1.0.1",
   "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
   "keywords": [
     "express",
