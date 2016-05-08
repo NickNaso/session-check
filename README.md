@@ -49,7 +49,7 @@ app.use(sessionCheck("My personal message error about session"));
 
 In the end is also possible pass an error objet to session-check middleware that provide to dispatch it to Express error handler.
 
-You could set a custo erro object as reported below:
+You could set a custom error object as reported below:
 
 ```javascript
 app.use(sessionCheck(new MyError("My personal message error onject session")); 
