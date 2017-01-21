@@ -1,7 +1,7 @@
 {
   "name": "session-check",
   "description": "Express middleware to check if session is available",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
   "keywords": [
     "express",
